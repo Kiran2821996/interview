@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header  */
+header {
+    background-color: blueviolet;
+    text-align: center;;
+    color: white;
+    font-size: 1.5rem;
+    height: 40px;
+}
+
+main {
+    margin: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.information-table {
+    border: 1px solid black;
+    height: 80vh;
+}
+
+.tab {
+    position: absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 20vw;
+}
+
+.table {
+    margin: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+   background-color: blueviolet; 
+   color: white;
+}
+
+td {
+    padding: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.add-row {
+    float: right;
+}
+
+/* Retrive Section  */
+.retrieve-section {
+    margin: 35px;
+}
